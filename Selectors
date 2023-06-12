@@ -1,0 +1,53 @@
+                                Home Image:
+CSS:                                                    xPath:
+#homeIcon                                               //img[@id="homeIcon"]
+.navbar-brand
+.navbar-brand #homeIcon
+
+                                 HomeButton:
+#nav-link-home                                         //a[@id="nav-link-home"]
+
+
+
+                                 LoginButton:
+#nav-link-login                                      //a[@id="nav-link-login"]
+
+                                 User Name:
+                                                 //input[@name="username"]
+ [name="username"]                              //input[@class="form-control ng-pristine ng-invalid is-invalid ng-touched"] [@formcontrolname="username"]
+                                               //input[@formcontrolname="username"]
+
+                                 Password:
+                                              //input[@class="form-control ng-untouched ng-pristine ng-invalid"] [@formcontrolname="password"]
+   [name="password"]                         //input[@formcontrolname="password"]
+ #defaultRegisterFormPassword
+                                            //input[@name="password"]
+                                            //input[@id="defaultRegisterFormPassword"]
+
+
+                               Confirm Password:
+  [name="verify-password"]                     //input[@id="defaultRegisterPhonePassword"
+                                              //input[@name="verify-password"
+                                             //input[@formcontrolname="confirmPassword"
+                                            //input[@class="form-control ng-pristine ng-invalid is-invalid ng-touched"] [@formcontrolname="confirmPassword"]
+
+                               E-mail:
+  [type="email"]                            //input[@formcontrolname="email"]
+                                             //input[@class="class="form-control ng-pristine ng-invalid is-invalid ng-touched"] [@formcontolname=email]
+
+                               .........
+                                            //span[@class="invalid-feedback ng-star-inserted"]
+
+
+                                Sign In Button:
+    #sign-in-button                        //button[@class="btn btn-primary mt-4"]
+
+                                Version:
+    . col-5 div                                //div[@class="col-5 col-lg-3 footer-container"]
+
+                                Logo:
+    Technologies: .col-6 h6
+    Tech logo 1: .col-6 img:first-of-type
+    Tech logo 2: .col-6 img:nth-of-type(2)
+    Tech logo 3: .col-6 img:last-of-type                     //div[@class="col-6 col-lg-4 footer-container"][//*]
+                                                             //div[@class="col-6 col-lg-4 footer-container"]
